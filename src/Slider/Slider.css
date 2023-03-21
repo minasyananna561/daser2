@@ -1,0 +1,34 @@
+.sider_container{
+    margin: auto;
+}
+
+.range_slider{
+    -webkit-appearance: non;
+width: 50%;
+height: 10px;
+border-radius: 5px;
+background: #d7dcdf;
+outline: none;
+padding: 0;
+margin: 0;
+
+}
+
+.range_values{
+    display: inline-block;
+    position: relative;
+    width: 60px;
+    line-height: 20px;
+    border-radius: 3px;
+    padding: 5px 3px;
+   left: 350px;
+    font-size: 18px;
+}
+
+.range_min_max_values{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 380px;
+    width: 50%;
+    text-align: center;
+   }

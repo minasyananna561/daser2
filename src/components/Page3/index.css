@@ -1,0 +1,14 @@
+.container {
+    position: relative;
+    display: flex;
+  }
+  
+  .img-preview-section-container {
+    display: none;
+  }
+  
+  .container:hover .img-preview-section-container {
+    display: block;
+    position: relative;
+    left: 50px;
+  }
